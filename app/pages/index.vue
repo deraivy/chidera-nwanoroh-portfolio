@@ -1,31 +1,33 @@
 <template>
   <div>
     <div class="w-full">
-      <splash />
+      <!-- <splash /> -->
       <div v-if="!showSplash" class="bg-striped">
-        <div class="w-full md:container mx-auto px-12">
+        <div class="w-full md:container mx-auto px-5">
           <div
-            class="h-[90vh] flex flex-col items-center justify-center text-center text-white relative"
+            class="h-[80vh] md:h-[90vh] flex flex-col items-center justify-center text-center text-white"
           >
-            <p class="text-lg mb-4" data-aos="fade-up" data-aos-duration="800">
+            <p
+              class="text-base md:text-lg mb-4"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
               Hi, my name is Nwanoroh Chidera
             </p>
 
             <h1
-              class="text-4xl md:text-6xl font-bold leading-tight"
+              class="text-3xl md:text-5xl lg:text-6xl font-bold lg:leading-[1.2] lg:max-w-6xl"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1000"
             >
               I create <span class="text-[#ff6b37]">high-quality</span>
-              web applications
-              <br />
-              with modern frontend
+              web applications with modern frontend
               <span class="text-[#ff6b37]">expertise.</span>
             </h1>
 
             <p
-              class="text-base md:text-lg text-gray-300 max-w-2xl my-8 leading-relaxed"
+              class="text-sm md:text-base text-gray-300 max-w-2xl my-8 leading-relaxed"
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1000"
@@ -35,24 +37,24 @@
             </p>
 
             <div
-              class="flex flex-col sm:flex-row gap-4"
+              class="mt-2"
               data-aos="zoom-in"
               data-aos-delay="600"
               data-aos-duration="800"
             >
               <NuxtLink
                 to="/contact"
-                class="px-6 py-3 rounded-xl bg-[#ff6b37]/70 border border-[#ff6b37] hover:bg-[#ff6b37] text-white font-semibold transition"
+                class="px-5 py-4 rounded-xl bg-[#ff6b37]/70 border border-[#ff6b37] hover:bg-[#ff6b37] text-white font-semibold transition"
               >
-                Let’s Connect
+                See My Works
               </NuxtLink>
-
+              <!-- 
               <NuxtLink
                 to="/projects"
-                class="px-6 py-3 rounded-xl border border-gray-500 hover:border-[#ff6b37] hover:text-[#ff6b37] font-semibold transition"
+                class="px-5 py-2.5 rounded-xl border border-gray-500 hover:border-[#ff6b37] hover:text-[#ff6b37] font-semibold transition"
               >
-                View My Work
-              </NuxtLink>
+                See My Work
+              </NuxtLink> -->
             </div>
           </div>
 
@@ -62,7 +64,7 @@
               <!-- Heading -->
               <div class="text-center mb-16">
                 <h2
-                  class="text-4xl md:text-5xl font-extrabold mb-4"
+                  class="text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#b1b2b3] to-[#b4b5b6]"
                   data-aos="fade-up"
                   data-aos-duration="800"
                 >
@@ -161,11 +163,11 @@
           </section>
 
           <!-- Projects -->
-          <section class="w-full md:container mx-auto px-5 py-24">
+          <section>
             <!-- Section Heading -->
             <div class="text-center text-white mb-16">
               <h2
-                class="text-4xl md:text-5xl font-extrabold mb-4"
+                class="text-4xl md:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#b1b2b3] to-[#b4b5b6]"
                 data-aos="fade-up"
                 data-aos-duration="800"
               >

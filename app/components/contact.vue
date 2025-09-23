@@ -16,7 +16,7 @@
         </p>
 
         <h2
-          class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-100 leading-tight py-5"
+          class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-100 leading-tight py-5 bg-clip-text text-transparent bg-gradient-to-r from-white via-[#b1b2b3] to-[#b4b5b6]"
           data-aos="fade-up"
           data-aos-delay="100"
         >
