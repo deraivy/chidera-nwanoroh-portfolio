@@ -43,7 +43,7 @@
               data-aos-duration="800"
             >
               <NuxtLink
-                to="/contact"
+                to="/projects"
                 class="px-5 py-4 rounded-xl bg-[#ff6b37]/70 border border-[#ff6b37] hover:bg-[#ff6b37] text-white font-semibold transition"
               >
                 See My Works
@@ -125,7 +125,7 @@
                       right audience, and grows organically.
                     </p>
                     <NuxtLink
-                      to="/book"
+                      to="/"
                       class="font-semibold text-[#ff6b37] hover:underline"
                     >
                       Book a Call →
