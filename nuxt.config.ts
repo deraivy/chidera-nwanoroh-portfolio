@@ -4,11 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/fonts", "@nuxt/icon", "@nuxt/image", "@nuxtjs/tailwindcss"],
   nitro: {
-    preset: "netlify", // Use the Netlify preset if needed
+    preset: "netlify",
   },
+  ssr: true,
   routeRules: {
     "/": { prerender: true },
-    //"/blog/**": { isr: 60 } // revalidate every 60 seconds, for example
   },
   css: ["./styles/main.css"],
   plugins: ["./plugins/aos.client.js"],
