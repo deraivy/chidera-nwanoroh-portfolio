@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="w-full">
-      <splash />
+      <!-- <splash /> -->
       <div v-if="!showSplash" class="bg-striped">
         <div class="w-full md:container mx-auto px-5">
           <div

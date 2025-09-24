@@ -1,14 +1,14 @@
 <template>
   <div class="bg-striped text-white">
-    <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="w-full md:container mx-auto px-5">
       <!-- About Section -->
-      <section class="flex flex-col lg:flex-row items-center gap-8 lg:gap-24 py-16">
+      <section class="flex flex-col lg:flex-row items-center gap-8 lg:gap-24">
         <!-- Image -->
         <div class="flex-shrink-0">
           <NuxtImg
             src="/images/chi.JPG"
             alt="Chidera, Frontend Developer"
-            class="w-80 sm:w-64 lg:w-[430px] shadow-xl transition-transform duration-300 hover:scale-105"
+            class="w-80 sm:w-64 lg:w-[430px] rounded-lg shadow-xl transition-transform duration-300 hover:scale-105"
           />
         </div>
 
