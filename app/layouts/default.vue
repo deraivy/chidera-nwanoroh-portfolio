@@ -3,8 +3,8 @@
     <div class="bg-striped dark:bg-[#0a0a0a] text-white">
       <div class="w-full md:container mx-auto">
         <!-- Header -->
-        <div class="flex justify-between items-center p-8 lg:px-12 relative z-20">
-          <h2 class="text-3xl font-bold">N/C</h2>
+        <div class="flex justify-between items-center p-8 lg:px-12 z-20">
+          <NuxtLink to="/" class="text-3xl font-bold">N/C</NuxtLink>
           <ul
             class="hidden md:flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
           >
@@ -20,7 +20,6 @@
             Resume
           </a>
 
-          <!-- Mobile Menu Button -->
           <div @click="toggleDrawer" class="md:hidden cursor-pointer">
             <Icon name="uil:bars" class="w-6 h-6 hover:text-[#ff6b37]" />
           </div>
@@ -29,17 +28,9 @@
         <!-- Drawer -->
         <div
           v-if="drawer"
-          class="fixed inset-0 bg-gradient-to-b from-gray-900 to-black z-50 transition-transform duration-300"
+          class="fixed inset-0 bg-striped bg-[#0a0a0a] z-50 transition-transform duration-300"
         >
-          <!-- Clickable background overlay -->
-          <div
-            class="absolute inset-0"
-            @click="close"
-          ></div>
-
-          <!-- Drawer content -->
-          <div class="relative z-10 flex flex-col items-center justify-center h-full space-y-8">
-            <!-- Close Button -->
+          <div class="flex flex-col items-center justify-center h-full space-y-8">
             <button
               @click="close"
               class="absolute top-4 right-4 flex items-center justify-center w-10 h-10 rounded-full bg-gray-600 hover:bg-gray-700"
@@ -47,7 +38,6 @@
               <Icon name="uil:times" class="w-6 h-6 text-white" />
             </button>
 
-            <!-- Navigation Links -->
             <ul class="flex flex-col items-center justify-center h-full space-y-8">
               <li @click="close"><NuxtLink to="/" class="text-white">Home</NuxtLink></li>
               <li @click="close"><NuxtLink to="/about" class="text-white">About</NuxtLink></li>
