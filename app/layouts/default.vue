@@ -4,7 +4,7 @@
       <div class="w-full md:container mx-auto">
         <!-- Header -->
         <div class="flex justify-between items-center p-8 lg:px-12 z-20">
-          <NuxtLink to="/" class="text-3xl font-bold">N/C</NuxtLink>
+          <NuxtLink to="/"><img src="/images/logo.png" alt="" class="w-12"></NuxtLink>
           <ul
             class="hidden md:flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
           >
@@ -19,12 +19,11 @@
           >
             Resume
           </a>
-
           <div @click="toggleDrawer" class="md:hidden cursor-pointer">
             <Icon name="uil:bars" class="w-6 h-6 hover:text-[#ff6b37]" />
           </div>
         </div>
-
+        
         <!-- Drawer -->
         <div
           v-if="drawer"

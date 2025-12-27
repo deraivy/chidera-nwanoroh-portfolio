@@ -93,7 +93,7 @@
       <!-- Skills Section -->
       <section class="py-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-white text-center mb-12">Skills</h2>
-        <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7 gap-6 justify-center">
+        <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-6 justify-center">
           <div v-for="skill in skills" :key="skill.name" class="flex flex-col items-center group">
             <div class="bg-gray-800 p-4 rounded-full shadow-md group-hover:bg-gray-800 transition-all duration-300 w-16 h-16 flex items-center justify-center">
               <img :src="skill.icon" :alt="skill.name" class="w-8 h-8" />
@@ -114,6 +114,5 @@ const skills = [
   { name: 'Vue.js', icon: '/icons/vue.svg' },
   { name: 'Tailwind', icon: '/icons/tail.png' },
   { name: 'Nuxt.js', icon: '/icons/nuxt.svg' },
-  { name: 'React', icon: '/icons/react.svg' },
 ]
 </script>
