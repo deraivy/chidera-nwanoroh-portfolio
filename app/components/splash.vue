@@ -7,9 +7,9 @@
     >
       <div class="h-[90vh] flex items-center justify-center">
         <NuxtImg
-          src="/images/image.png"
+          src="/images/chidera-red.png"
           alt="Chidera, Frontend Developer"
-          class="w-full"
+          class="w-1/2 object-contain"
         />
       </div>
     </div>
@@ -17,15 +17,15 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted } from "vue";
 
-const showSplash = ref(true)
+const showSplash = ref(true);
 
 onMounted(() => {
   setTimeout(() => {
-    showSplash.value = false
-  }, 3000) // hide after 3s
-})
+    showSplash.value = false;
+  }, 1500); // hide after 3s
+});
 </script>
 
 <style scoped>

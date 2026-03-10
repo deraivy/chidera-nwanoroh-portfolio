@@ -95,6 +95,7 @@
       </section>
     </div>
     <contact />
+    <whatsapp />
   </div>
 </template>
 
