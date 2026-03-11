@@ -301,13 +301,13 @@ const type = () => {
 const projects = [
   {
     id: 1,
-    title: "Speed Academy",
-    category: "E-learning",
+    title: "Speedpay",
+    category: "Finance",
     description:
       "E-learning platform for students built with Vue.js and Tailwind CSS.",
-    image: "/images/work.png",
-    stack: ["Vue.js", "Nuxt.js", "TailwindCSS"],
-    link: "https://speedacademyy.netlify.app",
+    image: "/images/speedpay.png",
+    stack: ["Nuxt.js", "TailwindCSS"],
+    link: "https://speedpay.ng/",
   },
   {
     id: 2,
@@ -321,11 +321,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "Lungu Farm",
+    title: "NextTravel",
+    category: "travel",
     description: "A startup project developed with Vue.js and Nuxt.",
-    image: "/images/lungu.png",
-    stack: ["Nuxt js", "Tailwind CSS"],
-    link: "https://lungufarm.netlify.app/",
+    image: "/images/travel.png",
+    stack: ["Nuxt.js", "TailwindCSS"],
+    link: "https://nexttrav.netlify.app/",
   },
   // {
   //   id: 4,

@@ -1,11 +1,11 @@
 <template>
   <div class="w-full md:container mx-auto px-5">
-    <div class="fixed left-24 bottom-10">
+    <div class="fixed right-24 bottom-10">
       <a
         href="https://api.whatsapp.com/send?phone=+2349136230385&text=Hello,%20I%20need%20your%20services"
         target="_blank"
         rel="noopener noreferrer"
-        class="flex items-center justify-center w-14 h-14 xs:w-10 xs:h-10 bg-green-500 text-white rounded-full shadow-lg transition-transform hover:scale-110"
+        class="flex items-center justify-center w-14 h-14 xs:w-10 xs:h-10 bg-[#ff6b37] text-white rounded-full shadow-lg transition-transform hover:scale-110"
       >
         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
           <path

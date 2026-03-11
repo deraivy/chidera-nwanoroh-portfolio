@@ -4,7 +4,9 @@
       <div class="w-full md:container mx-auto">
         <!-- Header -->
         <div class="flex justify-between items-center p-8 lg:px-12 z-20">
-          <NuxtLink to="/"><img src="/images/logo.png" alt="" class="w-12"></NuxtLink>
+          <NuxtLink to="/"
+            ><img src="/images/logo.png" alt="" class="w-12"
+          /></NuxtLink>
           <ul
             class="hidden md:flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0"
           >
@@ -23,13 +25,15 @@
             <Icon name="uil:bars" class="w-6 h-6 hover:text-[#ff6b37]" />
           </div>
         </div>
-        
+
         <!-- Drawer -->
         <div
           v-if="drawer"
           class="fixed inset-0 bg-striped bg-[#0a0a0a] z-50 transition-transform duration-300"
         >
-          <div class="flex flex-col items-center justify-center h-full space-y-8">
+          <div
+            class="flex flex-col items-center justify-center h-full space-y-8"
+          >
             <button
               @click="close"
               class="absolute top-4 right-4 flex items-center justify-center w-10 h-10 rounded-full bg-gray-600 hover:bg-gray-700"
@@ -37,10 +41,18 @@
               <Icon name="uil:times" class="w-6 h-6 text-white" />
             </button>
 
-            <ul class="flex flex-col items-center justify-center h-full space-y-8">
-              <li @click="close"><NuxtLink to="/" class="text-white">Home</NuxtLink></li>
-              <li @click="close"><NuxtLink to="/about" class="text-white">About</NuxtLink></li>
-              <li @click="close"><NuxtLink to="/projects" class="text-white">Projects</NuxtLink></li>
+            <ul
+              class="flex flex-col items-center justify-center h-full space-y-8"
+            >
+              <li @click="close">
+                <NuxtLink to="/" class="text-white">Home</NuxtLink>
+              </li>
+              <li @click="close">
+                <NuxtLink to="/about" class="text-white">About</NuxtLink>
+              </li>
+              <li @click="close">
+                <NuxtLink to="/projects" class="text-white">Projects</NuxtLink>
+              </li>
             </ul>
           </div>
         </div>
@@ -53,7 +65,9 @@
     <!-- Footer -->
     <footer class="text-white">
       <div class="border-t border-white/20">
-        <div class="flex justify-between items-center w-full md:container mx-auto">
+        <div
+          class="flex justify-between items-center w-full md:container mx-auto"
+        >
           <p class="p-8 text-sm text-center">&copy; 2025 Nwanoroh Chidera</p>
           <div class="flex space-x-2">
             <a href="https://github.com/">

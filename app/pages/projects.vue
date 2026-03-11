@@ -123,6 +123,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "NextTravel",
+    category: "travel",
+    description: "A startup project developed with Vue.js and Nuxt.",
+    image: "/images/travel.png",
+    stack: ["Nuxt.js", "TailwindCSS"],
+    link: "https://nexttrav.netlify.app/",
+  },
+  {
+    id: 4,
     title: "Portfolio Project",
     category: "Portfolio",
     description:
@@ -132,21 +141,30 @@ const projects = [
     link: "https://silver-nasturtium-5faa8e.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Lungu Farm",
     description: "A startup project developed with Vue.js and Nuxt.",
     image: "/images/lungu.png",
     stack: ["Nuxt js", "Tailwind CSS"],
     link: "https://lungufarm.netlify.app/",
   },
+  // {
+  //   id: 6,
+  //   title: "NextDream",
+  //   category: "Startup",
+  //   description: "A startup project developed with Vue.js and Nuxt.",
+  //   image: "/images/work2.png",
+  //   stack: ["Html", "Css", "Javascript"],
+  //   link: "https://nextdream.onrender.com",
+  // },
   {
-    id: 5,
-    title: "NextDream",
+    id: 6,
+    title: "HR Management System",
     category: "Startup",
     description: "A startup project developed with Vue.js and Nuxt.",
-    image: "/images/work2.png",
-    stack: ["Html", "Css", "Javascript"],
-    link: "https://nextdream.onrender.com",
+    image: "/images/hrdashboard.png",
+    stack: ["Vue.js", "Tailwind CSS"],
+    link: "https://hr-management-z.netlify.app",
   },
 ];
 </script>
