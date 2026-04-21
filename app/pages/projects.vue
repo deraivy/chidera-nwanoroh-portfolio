@@ -24,11 +24,13 @@
         </div>
 
         <!-- Projects Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 space-y-8"
+        >
           <div
             v-for="(project, index) in projects"
             :key="project.id"
-            class="bg-[#14151a] overflow-hidden shadow-lg group transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+            class="bg-[#14151a] rounded-xl overflow-hidden shadow-lg group transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
             data-aos="fade-up"
             :data-aos-delay="index * 150"
             data-aos-duration="600"
@@ -36,8 +38,8 @@
           >
             <!-- Image Section -->
             <div class="relative h-64 w-full overflow-hidden">
-              <img
-                class="h-full w-full object-fit transform transition-transform duration-500"
+              <NuxtImg
+                class="h-full w-full object-cover transform transition-transform duration-500"
                 :src="project.image"
                 :alt="project.title"
               />
@@ -148,17 +150,17 @@ const projects = [
     stack: ["Nuxt js", "Tailwind CSS"],
     link: "https://lungufarm.netlify.app/",
   },
-  // {
-  //   id: 6,
-  //   title: "NextDream",
-  //   category: "Startup",
-  //   description: "A startup project developed with Vue.js and Nuxt.",
-  //   image: "/images/work2.png",
-  //   stack: ["Html", "Css", "Javascript"],
-  //   link: "https://nextdream.onrender.com",
-  // },
   {
     id: 6,
+    title: "McKarekins Farm",
+    category: "Farm",
+    description: "A Farm website developed with Vue.js and Nuxt.",
+    image: "/images/mckarekins.png",
+    stack: ["Nuxt.js", "typescript", "Tailwind CSS"],
+    link: "https://nextdream.onrender.com",
+  },
+  {
+    id: 7,
     title: "HR Management System",
     category: "Startup",
     description: "A startup project developed with Vue.js and Nuxt.",

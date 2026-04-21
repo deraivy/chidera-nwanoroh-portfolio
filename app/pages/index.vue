@@ -143,12 +143,13 @@
                   <p class="text-5xl font-light text-gray-500 block mb-4">03</p>
                   <div>
                     <h4 class="text-xl font-semibold mb-3 mt-2">
-                      Responsive Design
+                      Website Revamp
                     </h4>
                     <p class="text-gray-400 mb-6">
-                      Your visitors use phones, tablets, and desktops — I make
-                      sure your website looks and works beautifully on every
-                      device.
+                      If your existing website looks outdated or isn't
+                      delivering results, I can transform it with a fresh modern
+                      design, enhanced functionality, and a smoother user
+                      experience.
                     </p>
                     <NuxtLink
                       to="/projects"
@@ -310,14 +311,13 @@ const projects = [
     link: "https://speedpay.ng/",
   },
   {
-    id: 2,
-    title: "Portfolio Project",
-    category: "Portfolio",
-    description:
-      "A modern personal portfolio website using Vue.js and Tailwind CSS.",
-    image: "/images/work3.png",
-    stack: ["Bootstrap", "JavaScript"],
-    link: "https://silver-nasturtium-5faa8e.netlify.app",
+    id: 4,
+    title: "McKarekins Farm",
+    category: "Startup",
+    description: "A startup project developed with Vue.js and Nuxt.",
+    image: "/images/mckarekins.png",
+    stack: ["Nuxt.js", "tailwind css", "typescript"],
+    link: "https://karekinsfc.com/",
   },
   {
     id: 3,
@@ -328,15 +328,6 @@ const projects = [
     stack: ["Nuxt.js", "TailwindCSS"],
     link: "https://nexttrav.netlify.app/",
   },
-  // {
-  //   id: 4,
-  //   title: "NextDream",
-  //   category: "Startup",
-  //   description: "A startup project developed with Vue.js and Nuxt.",
-  //   image: "/images/work2.png",
-  //   stack: ["Html", "Css", "Javascript"],
-  //   link: "https://nextdream.onrender.com",
-  // },
 ];
 
 onMounted(type);

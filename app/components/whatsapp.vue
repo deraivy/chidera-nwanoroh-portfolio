@@ -1,6 +1,6 @@
 <template>
   <div class="w-full md:container mx-auto px-5">
-    <div class="fixed right-24 bottom-10">
+    <!-- <div class="fixed right-4 lg:right-24 bottom-10">
       <a
         href="https://api.whatsapp.com/send?phone=+2349136230385&text=Hello,%20I%20need%20your%20services"
         target="_blank"
@@ -13,7 +13,7 @@
           />
         </svg>
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 
