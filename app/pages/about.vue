@@ -73,7 +73,7 @@
         </section>
 
         <!-- Experience Section -->
-        <section class="py-16">
+        <section class="py-16 mt-24">
           <h3
             class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 mb-8"
           >
@@ -86,7 +86,7 @@
             solutions, my path has been defined by embracing innovation and
             driving impact.
           </p>
-          <div class="grid md:grid-cols-2 gap-8">
+          <div class="grid md:grid-cols-2 gap-8 mt-14">
             <!-- Education -->
             <div>
               <h4 class="text-2xl font-semibold text-white mb-6">Education</h4>
@@ -145,14 +145,14 @@
         </section>
 
         <!-- Skills Section -->
-        <section class="py-16">
+        <section class="py-16 mt-12">
           <h2
             class="text-3xl sm:text-4xl font-bold text-white text-center mb-12"
           >
             Skills
           </h2>
           <div
-            class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-6 justify-center"
+            class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7 gap-6 justify-center"
           >
             <div
               v-for="skill in skills"
