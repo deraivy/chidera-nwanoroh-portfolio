@@ -11,6 +11,8 @@
             <NuxtImg
               src="/images/chi.JPG"
               alt="Chidera, Frontend Developer"
+              format="webp"
+              quality="80"
               class="w-80 sm:w-64 lg:w-[430px] rounded-lg shadow-xl transition-transform duration-300 hover:scale-105"
             />
           </div>
@@ -45,7 +47,8 @@
             >
               I specialize in
               <span class="font-semibold text-[#ff6b37]/80">Nuxt.js</span>,
-              <span class="font-semibold text-[#ff6b37]/80">Vue.js</span>, and
+              <span class="font-semibold text-[#ff6b37]/80">Vue.js</span>,
+              <span class="font-semibold text-[#ff6b37]/80">React</span>, and
               <span class="font-semibold text-[#ff6b37]/80">Tailwind CSS</span>,
               leveraging modern practices like component-based architecture and
               performance optimization to create intuitive and enjoyable digital
@@ -183,5 +186,6 @@ const skills = [
   { name: "Vue.js", icon: "/icons/vue.svg" },
   { name: "Tailwind", icon: "/icons/tail.png" },
   { name: "Nuxt.js", icon: "/icons/nuxt.svg" },
+  { name: "React", icon: "/icons/react.svg" },
 ];
 </script>
