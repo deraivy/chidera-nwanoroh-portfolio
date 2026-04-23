@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="w-full">
-      <splash />
+      <!-- <splash /> -->
       <div v-if="!showSplash" class="bg-striped">
         <div class="w-full md:container mx-auto px-5">
           <div
@@ -321,12 +321,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "NextTravel",
-    category: "travel",
-    description: "A startup project developed with Vue.js and Nuxt.",
-    image: "/images/travel.png",
-    stack: ["Nuxt.js", "TailwindCSS"],
-    link: "https://nexttrav.netlify.app/",
+    title: "Chi Movies",
+    category: "movie",
+    description: "A movie website developed with react and tailwindcss",
+    image: "/images/movie.png",
+    stack: ["React", "Tailwind CSS"],
+    link: "https://chimovies.netlify.app/",
   },
 ];
 

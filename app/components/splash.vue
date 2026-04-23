@@ -1,5 +1,4 @@
 <template>
-  <!-- Splash Screen -->
   <transition name="fade">
     <div
       v-if="showSplash"
@@ -24,12 +23,11 @@ const showSplash = ref(true);
 onMounted(() => {
   setTimeout(() => {
     showSplash.value = false;
-  }, 1500); // hide after 3s
+  }, 1500);
 });
 </script>
 
 <style scoped>
-/* Fade transition */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 1s ease;

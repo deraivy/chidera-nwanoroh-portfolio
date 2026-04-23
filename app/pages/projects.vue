@@ -168,6 +168,15 @@ const projects = [
     stack: ["Vue.js", "Tailwind CSS"],
     link: "https://hr-management-z.netlify.app",
   },
+  {
+    id: 8,
+    title: "Chi Movies",
+    category: "movie",
+    description: "A movie website developed with react and tailwindcss",
+    image: "/images/movie.png",
+    stack: ["React", "Tailwind CSS"],
+    link: "https://chimovies.netlify.app/",
+  },
 ];
 </script>
 
